@@ -1,7 +1,7 @@
 #  Tic Tac Toe game
 
 ----
-##Run game:
+## Run game:
 see [Wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe)
 
 - run game through Main.java
