@@ -18,9 +18,9 @@ see [Wikipedia](https://en.wikipedia.org/wiki/Tic-tac-toe)
 
 ----
 - You win if:
-      - you first reach 3 "X" or "O" in a row
-      - you first reach 3 "X" or "O" in a column
-      - you first reach 3 "X" or "O" in a diagonal
+     + you first reach 3 "X" or "O" in a row
+     + you first reach 3 "X" or "O" in a column
+     + you first reach 3 "X" or "O" in a diagonal
 
 ## Code detail
 - program 3 class:
