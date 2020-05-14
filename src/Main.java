@@ -5,13 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
         Validate check = new Validate();
-
         TicTacToe game = new TicTacToe("X");
         game.initBoard();
         game.printBoard();
-
 
         do {
             System.out.print("Player " + game.getCurrentPlayer() + " turn!\n");

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class TicTacToe {
     public String[][] board;
     private static final int ROWS = 3;
@@ -87,12 +85,12 @@ public class TicTacToe {
     //setting player move
     public boolean setMove(int i, int j, String currentPlayer) {
 
-        Scanner sc = new Scanner(System.in);
+        Validate check = new Validate();
 
         while(!this.board[i][j].equals("-")) {
-            System.out.println("That position already entered. Please choose again!");
-            i = sc.nextInt();
-            j = sc.nextInt();
+            System.out.println("\nThat position already entered. Please choose again!\n");
+            i = check.verifyIntegerNumber("enter row coordinate again(0-2): ", 0, 2);;
+            j = check.verifyIntegerNumber("enter column coordinate again(0-2): ", 0, 2);
         }
 
         if (this.board[i][j].equals("-")) {
@@ -111,6 +109,5 @@ public class TicTacToe {
         }
 
     }
-
 
 }
